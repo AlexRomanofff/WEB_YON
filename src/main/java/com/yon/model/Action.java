@@ -9,6 +9,7 @@ import java.sql.Date;
 @Table(name="YON_Actions")
 public class Action implements Serializable {
 
+    private static final long serialVersionUID = -1012422247670053148L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
